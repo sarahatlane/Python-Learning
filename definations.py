@@ -11,10 +11,12 @@
 #   Functions can take inputs, perform operations, and optionally return a result using the return statement.
 
 
+
 # ---------------------Lists:
 # Lists are ordered collections of items in Python. 
 #   They are mutable, meaning their elements can be changed after creation. 
 #   Lists are defined using square brackets [] and can contain elements of different data types, including other lists.
+
 
 
 # ---------------------Dictionaries: 
@@ -23,4 +25,18 @@
 #   Each element in a dictionary consists of a key-value pair, where the key is unique and used to access its associated value. 
 #   Dictionaries are commonly used for mapping relationships between items.
 
+
+
+# --------------------Control Flow Statements: 
+#   Control flow statements are used to control the flow of execution in a program. 
+#   They include conditional statements like if, elif, and else, which allow you to execute different blocks of code based on certain conditions. 
+#   Python also provides looping constructs like for and while, which allow you to iterate over sequences of data.
+
+
+
+# --------------------Classes and Objects: 
+#   Classes and objects are fundamental concepts in object-oriented programming (OOP)
+#   A class is a blueprint for creating objects, which are instances of that class
+#   Classes define attributes (data) and methods (functions) that operate on that data
+#   Objects encapsulate data and behavior and promote code reuse and modularity.
 
