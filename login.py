@@ -9,3 +9,17 @@ credentials = {
     "user2": "password2",
     "user3": "password3"
 }
+
+def login():
+    # Ask the user for their username and password
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+
+# Check if the username exists and the password is correct
+    if username in credentials and credentials[username] == password:
+        print("Login successful! Welcome, " + username + "!")
+    else:
+        print("Invalid username or password. Please try again.")
+
+# Call the login function to start the login process
+login()
