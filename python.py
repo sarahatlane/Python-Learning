@@ -56,6 +56,7 @@ while count < 3:
 
 # ---------------------------------------Functions-----------------------------------------
 
+
 # Functions
 def greet(name):
     print("Hello, " + name + "!")
