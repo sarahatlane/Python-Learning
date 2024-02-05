@@ -64,12 +64,29 @@ greet("Alice")
 
 
 
-# -----------------------------------Input and Output--------------------------------------
+# -----------------------------------Input and Output---------------------------------------
 
 # Input
 user_input = input("Enter your name: ")
 print("Hello, " + user_input + "!")
 
 
+# -----------------------------------------Comments-----------------------------------------
 
+
+
+# This is a single-line comment
+
+"""
+This is a
+multi-line comment
+"""
+
+
+# ----------------------------------------Libraries------------------------------------------
+
+from datetime import datetime
+
+current_time = datetime.now()
+print("Current time:", current_time)
 
