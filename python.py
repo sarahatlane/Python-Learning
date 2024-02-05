@@ -32,7 +32,7 @@ print("Fruits after adding grape:", fruits)
 
 
 #  --------------------------------Conditions and Loops----------------------------------
-# if statement
+   # if statement
 x = 10
 if x > 5:
     print("x is greater than 5")
@@ -46,3 +46,14 @@ count = 0
 while count < 3:
     print("Count:", count)
     count += 1
+
+
+# ---------------------------------------Functions-----------------------------------------
+    # Functions
+def greet(name):
+    print("Hello, " + name + "!")
+
+greet("Alice")
+
+
+
