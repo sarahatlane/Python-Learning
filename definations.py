@@ -22,8 +22,6 @@ result = add_numbers(5, 3)
 print(result)  # Output: 8
 
 
-
-
 # ---------------------Lists:
 # Lists are ordered collections of items in Python. 
 #   They are mutable, meaning their elements can be changed after creation. 
@@ -52,6 +50,7 @@ print(my_dict['age'])  # Output: 30
 #   They include conditional statements like if, elif, and else, which allow you to execute different blocks of code based on certain conditions. 
 #   Python also provides looping constructs like for and while, which allow you to iterate over sequences of data.
 
+
 x = 10
 if x > 5:
     print("x is greater than 5")
@@ -78,8 +77,6 @@ person1 = Person("John", 30)
 person1.greet()  # Output: Hello, my name is John
 
 
-
-
 # ----------------------Modules and Packages: 
 #    Modules are Python files containing Python code, typically grouped together based on functionality. 
 #    They allow you to organize your code into reusable components and provide namespaces to avoid naming conflicts. 
@@ -95,7 +92,6 @@ my_module.my_function()  # Output: This is my function in my_module.py
 
 
 
-
 # ------------------------Exceptions: 
 # Exceptions are events that occur during the execution of a program that disrupt the normal flow of instructions. 
 # When an exception occurs, it can be caught and handled using try and except blocks, allowing you to gracefully recover from errors. 
@@ -107,3 +103,25 @@ except ZeroDivisionError:
     print("Error: Division by zero")
 
 
+
+# String is a sequence of characters enclosed within either single quotes (') or double quotes ("). 
+#     Python treats single and double quotes the same way, so you can use either depending on your preference or to handle situations where one type of quote appears within the string.
+    
+my_string1 = "Hello, World!"
+my_string2 = 'Python is awesome'
+my_string3 = "It's raining today"
+
+# Multiline string using triple quotes
+multiline_string = """This is a 
+multiline 
+string"""
+
+# Accessing characters in a string
+first_char = my_string1[0]  # Accessing the first character
+substring = my_string1[7:12]  # Accessing a substring
+
+# Concatenating strings
+concatenated_string = my_string1 + " " + my_string2
+
+# String formatting
+formatted_string = "My name is {} and I am {} years old".format("Alice", 30)
