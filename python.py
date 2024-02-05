@@ -4,6 +4,7 @@ print("Hello, World!")
 
 
 #  --------------------------------Variables and Data Types-------------------------------
+
 # Variables
 name = "John"
 age = 25
@@ -18,7 +19,9 @@ print("Age:", age)
 print("Height:", height)
 
 
+
 # --------------------------------------Lists--------------------------------------------
+
 # Lists
 fruits = ["apple", "banana", "orange"]
 print("Fruits:", fruits)
@@ -31,8 +34,10 @@ fruits.append("grape")
 print("Fruits after adding grape:", fruits)
 
 
+
 #  --------------------------------Conditions and Loops----------------------------------
-   # if statement
+ 
+ # if statement
 x = 10
 if x > 5:
     print("x is greater than 5")
@@ -48,12 +53,23 @@ while count < 3:
     count += 1
 
 
+
 # ---------------------------------------Functions-----------------------------------------
-    # Functions
+
+# Functions
 def greet(name):
     print("Hello, " + name + "!")
 
 greet("Alice")
+
+
+
+# -----------------------------------Input and Output--------------------------------------
+
+# Input
+user_input = input("Enter your name: ")
+print("Hello, " + user_input + "!")
+
 
 
 
