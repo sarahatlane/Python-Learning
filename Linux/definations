@@ -1,63 +1,68 @@
 
 #------------------- Linux commands:-----------------------#
 
-ls: List directory contents.
-
-bash
-Copy code
+# ls: List directory contents.
 ls
-cd: Change the current directory.
 
-bash
-Copy code
+
+
+# cd: Change the current directory.
 cd directory_name
-pwd: Print the current working directory.
 
-bash
-Copy code
+
+# pwd: Print the current working directory.
 pwd
-mkdir: Create a new directory.
 
-arduino
-Copy code
+
+
+# mkdir: Create a new directory.
 mkdir directory_name
-rm: Remove files or directories.
 
-bash
-Copy code
+
+
+
+# rm: Remove files or directories.
 rm file_name
 rm -r directory_name (to remove a directory and its contents recursively)
-cp: Copy files or directories.
 
-bash
-Copy code
+
+
+# cp: Copy files or directories.
 cp source_file destination_file
 cp -r source_directory destination_directory (to copy directories recursively)
-mv: Move or rename files or directories.
 
-css
-Copy code
+
+
+
+# mv: Move or rename files or directories.
 mv old_file new_file
 mv file_name new_directory (to move a file to a different directory)
-cat: Display the contents of a file.
 
-bash
-Copy code
+
+
+
+# cat: Display the contents of a file.
 cat file_name
-grep: Search for a pattern in files.
 
-perl
-Copy code
+
+
+# grep: Search for a pattern in files.
 grep pattern file_name
-chmod: Change file permissions.
 
-bash
-Copy code
+
+
+
+# chmod: Change file permissions.
 chmod permissions file_name
-chown: Change file owner and group.
-bash
-Copy code
+
+
+
+# chown: Change file owner and group.
 chown owner:group file_name
-sudo: Execute a command as a superuser.
-Copy code
+
+
+
+# Sudo: Execute a command as a superuser.
 sudo command_name
+
+#---------------------------------------------------------------------#
